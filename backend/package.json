@@ -1,0 +1,17 @@
+{
+  "name": "patient-medication-backend",
+  "version": "1.0.0",
+  "description": "API quản lý hồ sơ bệnh nhân và lịch sử thuốc",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node --test ../tests/COD1-58-test-cases.test.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}

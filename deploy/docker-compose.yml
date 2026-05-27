@@ -1,0 +1,12 @@
+# COD1-59: Cấu hình Docker deploy backend
+services:
+  api:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - JWT_SECRET=dacnpm-production-secret
+    restart: unless-stopped
