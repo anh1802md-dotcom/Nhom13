@@ -1,3 +1,4 @@
+
 # Ứng dụng Web Quản Lý Hồ Sơ Bệnh Nhân & Lịch Sử Dùng Thuốc
 
 Đồ án môn **Công nghệ phần mềm** — hệ thống web hoàn chỉnh (frontend + backend API).
@@ -78,3 +79,4 @@ Mở: **http://localhost:5173** (Vite tự proxy `/api` sang port 3000)
 ```bash
 npm test
 ```
+
