@@ -1,0 +1,16 @@
+{
+  "name": "dacnpm-patient-medication-app",
+  "version": "1.0.0",
+  "description": "Ứng dụng web quản lý hồ sơ bệnh nhân và lịch sử dùng thuốc",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix web",
+    "build": "npm run build --prefix web",
+    "start": "npm run build && npm start --prefix backend",
+    "dev:api": "npm start --prefix backend",
+    "dev:web": "npm run dev --prefix web",
+    "backend": "npm start --prefix backend",
+    "test": "node --test tests/COD1-58-test-cases.test.js",
+    "deploy": "node deploy/COD1-59-deploy.js"
+  }
+}
